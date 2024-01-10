@@ -26,7 +26,7 @@ describe  actor;
 select * from customer;
 
 -- Q4 List different countries.
-select * from country;
+select  distinct(country) from country;
 
 -- Q5 Display all active customers.
 select * from customer where active =1;
@@ -84,3 +84,5 @@ select * from actor limit 50;
 
 -- Q23 Get the distinct film ids from inventory table.
 select distinct(film_id) from inventory;
+
+
